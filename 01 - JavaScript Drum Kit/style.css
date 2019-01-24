@@ -1,10 +1,17 @@
+:root {
+  --color-primary: #FFC600;
+  --color-secondary: #00A0FF;
+  --color-ternary: #5CF2E8;
+  --color-quaternary: #F71E35;
+}
+
 html {
   font-size: 10px;
   background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
 }
 
-body,html {
+body, html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -19,7 +26,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid white;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -27,15 +34,42 @@ body,html {
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 .5rem white;
+  cursor: pointer;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 1rem var(--color-primary);
+  background: var(--color-primary);
+  opacity: 0.6;
+}
+
+.playing-1 {
+  transform: scale(1.1);
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 1rem var(--color-secondary);
+  background: var(--color-secondary);
+  opacity: 0.6;
+}
+
+.playing-2 {
+  transform: scale(1.1);
+  border-color: var(--color-ternary);
+  box-shadow: 0 0 1rem var(--color-ternary);
+  background: var(--color-ternary);
+  opacity: 0.6;
+}
+
+.playing-3 {
+  transform: scale(1.1);
+  border-color: var(--color-quaternary);
+  box-shadow: 0 0 1rem var(--color-quaternary);
+  background: var(--color-quaternary);
+  opacity: 0.6;
 }
 
 kbd {
@@ -45,7 +79,31 @@ kbd {
 
 .sound {
   font-size: 1.2rem;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+}
+
+.key-repeat {
+  width: 11rem;
+  margin: 1.4rem;
+  font-size: 0;
+}
+
+.key-repeat span {
+  height: 1.2rem;
+  width: 3.66rem;
+  display: inline-block;
+}
+
+.repeat-1.active {
+  background: var(--color-secondary);
+}
+
+.repeat-2.active {
+  background: var(--color-ternary);
+}
+
+.repeat-3.active {
+  background: var(--color-quaternary);
 }
