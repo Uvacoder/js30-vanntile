@@ -21,7 +21,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 6. [x] [Type Ahead](https://vanntile.github.io/JavaScript30/06%20-%20Type%20Ahead)
   and my [notes](./06%20-%20Type%20Ahead)
 7. [x] [Array Cardio, Day 2](https://vanntile.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/)
-8. [ ] Fun with HTML5 Canvas
+8. [x] [Fun with HTML5 Canvas](https://vanntile.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas)
 9. [ ] Dev Tools Domination
 10. [ ] Hold Shift and Check Checkboxes
 11. [ ] Custom Video Player
