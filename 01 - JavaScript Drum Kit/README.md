@@ -11,7 +11,7 @@ functionality.
  or all three measures (each with a distinctive color)
 
 ## Learning notes
-Some concepts thaught:
+Some concepts taught:
  - ES6 `template literals`
  - `transitioned` event
  - `audio` element API

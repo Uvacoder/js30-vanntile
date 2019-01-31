@@ -12,13 +12,14 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 ## Table of contents
 
 1. [x] [JavaScript Drum Kit](https://vanntile.github.io/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/)
-and my [notes](./01%20-%20JavaScript%20Drum%20Kit)
+  and my [notes](./01%20-%20JavaScript%20Drum%20Kit)
 2. [x] [JS + CSS Clock](https://vanntile.github.io/JavaScript30/02%20-%20JS%20and%20CSS%20Clock/)
 3. [x] [CSS Variables](https://vanntile.github.io/JavaScript30/03%20-%20CSS%20Variables/)
 4. [x] [Array Cardio, Day 1](https://vanntile.github.io/JavaScript30/04%20-%20Array%20Cardio%20Day%201/)
 5. [x] [Flex Panel Gallery](https://vanntile.github.io/JavaScript30/05%20-%20Flex%20Panel%20Gallery/)
-and my [notes](./05%20-%20Flex%20Panel%20Gallery)
-6. [ ] Type Ahead
+  and my [notes](./05%20-%20Flex%20Panel%20Gallery)
+6. [x] [Type Ahead](https://vanntile.github.io/JavaScript30/06%20-%20Type%20Ahead)
+  and my [notes](./06%20-%20Type%20Ahead)
 7. [ ] Array Cardio, Day 2
 8. [ ] Fun with HTML5 Canvas
 9. [ ] Dev Tools Domination

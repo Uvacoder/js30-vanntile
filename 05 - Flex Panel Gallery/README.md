@@ -12,7 +12,7 @@ the flow adding focus in every state. Adding greyscale puts further accent on
 the currnt panel.
 
 ## Learning notes
-Some concepts thaught:
+Some concepts taught:
  - CSS3 `flexbox` layout and nested flexbox
  - timing css events
  - JavaScript class toggle logic
@@ -34,3 +34,4 @@ var toggleOpen = function () {
   }
 }
 ```
+
