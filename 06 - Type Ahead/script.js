@@ -1,23 +1,23 @@
-const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json'
 
 const cities = []
 
-fetch(endpoint)
+window.fetch(endpoint)
   .then(response => response.json())
   .then(data => cities.push(...data))
 
-function findMatches(wordToMatch, cities) {
+function findMatches (wordToMatch, cities) {
   return cities.filter(place => {
     const regex = new RegExp(wordToMatch, 'gi')
     return place.city.match(regex) || place.state.match(regex)
   })
 }
 
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+function numberWithCommas (x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
 }
 
-function displayMatches() {
+function displayMatches () {
   const matchArr = findMatches(this.value, cities)
   const regex = new RegExp(this.value, 'gi')
 
@@ -32,9 +32,8 @@ function displayMatches() {
       </li>
     `
   }).join('')
-  suggestions.innerHTML = html;
+  suggestions.innerHTML = html
 }
-
 
 const searchInput = document.querySelector('.search')
 const suggestions = document.querySelector('.suggestions')
