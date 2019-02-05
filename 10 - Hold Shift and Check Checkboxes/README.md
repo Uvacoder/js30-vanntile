@@ -2,7 +2,7 @@
 
 This tutorial shows how to create a `shift select` checkbox list.
 
-![10 - Hold Shift and Check Checkboxes](../assets/img/10 - Hold Shift and Check Checkboxes.png)
+![Hold Shift and Check Checkboxes](../assets/img/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes.png?raw=true "Presentation Image")
 
 ## My implementation
 
@@ -24,6 +24,3 @@ const check = (s, e) => {
   }
 }
 ```
-
-
-

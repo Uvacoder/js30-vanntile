@@ -2,7 +2,7 @@
 
 This tutorial shows how to create a custom video player.
 
-![11 - Custom Video Player](../assets/img/11 - Custom Video Player.png)
+![Custom Video Player](../assets/img/11%20-%20Custom%20Video%20Player.png?raw=true "Presentation Image")
 
 ## My contribution
 
