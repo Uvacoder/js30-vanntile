@@ -1,4 +1,4 @@
-# Type Ahead
+# Hold Shift and Check Checkboxes
 
 This tutorial shows how to create a `shift select` checkbox list.
 
