@@ -27,7 +27,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
   and my [notes](./10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
 11. [x] [Custom Video Player](https://vanntile.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
   and my [notes](./11%20-%20Custom%20Video%20Player)
-12. [ ] Key Sequence Detection
+12. [x] [Key Sequence Detection](https://vanntile.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection)
 13. [ ] Slide in on Scroll
 14. [ ] JavaScript References vs. Copying
 15. [ ] LocalStorage
