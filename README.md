@@ -25,7 +25,8 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 9. [x] [Dev Tools Domination](https://vanntile.github.io/JavaScript30/09%20-%20Dev%20Tools%20Domination/)
 10. [x] [Hold Shift and Check Checkboxes](https://vanntile.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
   and my [notes](./10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
-11. [ ] Custom Video Player
+11. [x] [Custom Video Player](https://vanntile.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)
+  and my [notes](./11%20-%20Custom%20Video%20Player)
 12. [ ] Key Sequence Detection
 13. [ ] Slide in on Scroll
 14. [ ] JavaScript References vs. Copying
