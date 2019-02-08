@@ -29,7 +29,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
   and my [notes](./11%20-%20Custom%20Video%20Player)
 12. [x] [Key Sequence Detection](https://vanntile.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection)
 13. [x] [Slide in on Scroll](https://vanntile.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll)
-14. [ ] JavaScript References vs. Copying
+14. [x] [JavaScript References vs. Copying](https://vanntile.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying)
 15. [ ] LocalStorage
 16. [ ] Mouse Move Shadow
 17. [ ] Sort Without Articles
