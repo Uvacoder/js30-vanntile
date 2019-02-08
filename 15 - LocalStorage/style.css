@@ -11,7 +11,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit; 
+  box-sizing: inherit;
 }
 
 svg {
@@ -76,4 +76,21 @@ h2 {
   padding: 10px;
   outline: 0;
   border: 1px solid rgba(0,0,0,0.1);
+  max-width: 200px;
+}
+
+.buttons {
+  margin: 12px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px;
+  border: 1px solid rgba(0,0,0,0.1);
+  font-size: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.25)
 }
