@@ -32,7 +32,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 14. [x] [JavaScript References vs. Copying](https://vanntile.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying)
 15. [x] [LocalStorage](https://vanntile.github.io/JavaScript30/15%20-%20LocalStorage) and my
   [notes](./15%20-%20LocalStorage)
-16. [ ] Mouse Move Shadow
+16. [x] [Mouse Move Shadow](https://vanntile.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow)
 17. [ ] Sort Without Articles
 18. [ ] Adding Up Times with Reduce
 19. [ ] Webcam Fun
