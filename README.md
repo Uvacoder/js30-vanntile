@@ -33,7 +33,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 15. [x] [LocalStorage](https://vanntile.github.io/JavaScript30/15%20-%20LocalStorage) and my
   [notes](./15%20-%20LocalStorage)
 16. [x] [Mouse Move Shadow](https://vanntile.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow)
-17. [ ] Sort Without Articles
+17. [x] [Sort Without Articles](https://vanntile.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles)
 18. [ ] Adding Up Times with Reduce
 19. [ ] Webcam Fun
 20. [ ] Speech Detection
