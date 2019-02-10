@@ -37,7 +37,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 18. [x] [Adding Up Times with Reduce](https://vanntile.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce)
 19. [x] [Webcam Fun](https://vanntile.github.io/JavaScript30/19%20-%20Webcam%20Fun)
   and my [notes](./19%20-%20Webcam%20Fun)
-20. [ ] Speech Detection
+20. [ ] Speech Detection (not working in browsers for now)
 21. [ ] Geolocation
 22. [ ] Follow Along Link Highlighter
 23. [ ] Speech Synthesis
