@@ -42,7 +42,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 22. [x] [Follow Along Link Highlighter](https://vanntile.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter)
 23. [ ] Speech Synthesis
 24. [x] [Sticky Nav](https://vanntile.github.io/JavaScript30/24%20-%20Sticky%20Nav)
-25. [ ] Event Capture, Propagation, Bubbling, and Once
+25. [x] [Event Capture, Propagation, Bubbling, and Once](https://vanntile.github.io/JavaScript30/25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once)
 26. [x] [Stripe Follow Along Nav](https://vanntile.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav)
   and my [notes](./26%20-%20Stripe%20Follow%20Along%20Nav)
 27. [ ] Click and Drag
