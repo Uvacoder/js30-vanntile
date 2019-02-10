@@ -43,7 +43,8 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 23. [ ] Speech Synthesis
 24. [ ] Sticky Nav
 25. [ ] Event Capture, Propagation, Bubbling, and Once
-26. [ ] Stripe Follow Along Nav
+26. [x] [Stripe Follow Along Nav](https://vanntile.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav)
+  and my [notes](./26%20-%20Stripe%20Follow%20Along%20Nav)
 27. [ ] Click and Drag
 28. [ ] Video Speed Controller
 29. [ ] Countdown Timer
