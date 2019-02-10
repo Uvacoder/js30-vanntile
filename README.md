@@ -45,7 +45,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 25. [x] [Event Capture, Propagation, Bubbling, and Once](https://vanntile.github.io/JavaScript30/25%20-%20Event%20Capture,%20Propagation,%20Bubbling%20and%20Once)
 26. [x] [Stripe Follow Along Nav](https://vanntile.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav)
   and my [notes](./26%20-%20Stripe%20Follow%20Along%20Nav)
-27. [ ] Click and Drag
+27. [x] [Click and Drag](https://vanntile.github.io/JavaScript30/27%20-%20Click%20and%20Drag)
 28. [ ] Video Speed Controller
 29. [ ] Countdown Timer
 30. [ ] Whack A Mole
