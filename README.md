@@ -39,7 +39,7 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
   and my [notes](./19%20-%20Webcam%20Fun)
 20. [ ] Speech Detection (not working in browsers for now)
 21. [ ] Geolocation
-22. [ ] Follow Along Link Highlighter
+22. [x] [Follow Along Link Highlighter](https://vanntile.github.io/JavaScript30/22%20-%20Follow%20Along%20Link%20Highlighter)
 23. [ ] Speech Synthesis
 24. [ ] Sticky Nav
 25. [ ] Event Capture, Propagation, Bubbling, and Once
