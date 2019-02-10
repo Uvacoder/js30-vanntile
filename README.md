@@ -30,12 +30,13 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 12. [x] [Key Sequence Detection](https://vanntile.github.io/JavaScript30/12%20-%20Key%20Sequence%20Detection)
 13. [x] [Slide in on Scroll](https://vanntile.github.io/JavaScript30/13%20-%20Slide%20in%20on%20Scroll)
 14. [x] [JavaScript References vs. Copying](https://vanntile.github.io/JavaScript30/14%20-%20JavaScript%20References%20VS%20Copying)
-15. [x] [LocalStorage](https://vanntile.github.io/JavaScript30/15%20-%20LocalStorage) and my
-  [notes](./15%20-%20LocalStorage)
+15. [x] [LocalStorage](https://vanntile.github.io/JavaScript30/15%20-%20LocalStorage)
+  and my [notes](./15%20-%20LocalStorage)
 16. [x] [Mouse Move Shadow](https://vanntile.github.io/JavaScript30/16%20-%20Mouse%20Move%20Shadow)
 17. [x] [Sort Without Articles](https://vanntile.github.io/JavaScript30/17%20-%20Sort%20Without%20Articles)
 18. [x] [Adding Up Times with Reduce](https://vanntile.github.io/JavaScript30/18%20-%20Adding%20Up%20Times%20with%20Reduce)
-19. [ ] Webcam Fun
+19. [x] [Webcam Fun](https://vanntile.github.io/JavaScript30/19%20-%20Webcam%20Fun)
+  and my [notes](./19%20-%20Webcam%20Fun)
 20. [ ] Speech Detection
 21. [ ] Geolocation
 22. [ ] Follow Along Link Highlighter
