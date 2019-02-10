@@ -46,6 +46,6 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 26. [x] [Stripe Follow Along Nav](https://vanntile.github.io/JavaScript30/26%20-%20Stripe%20Follow%20Along%20Nav)
   and my [notes](./26%20-%20Stripe%20Follow%20Along%20Nav)
 27. [x] [Click and Drag](https://vanntile.github.io/JavaScript30/27%20-%20Click%20and%20Drag)
-28. [ ] Video Speed Controller
+28. [x] [Video Speed Controller](https://vanntile.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller)
 29. [ ] Countdown Timer
 30. [ ] Whack A Mole
