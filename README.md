@@ -50,4 +50,4 @@ Check the course at [https://JavaScript30.com](https://JavaScript30.com)
 27. [x] [Click and Drag](https://vanntile.github.io/JavaScript30/27%20-%20Click%20and%20Drag)
 28. [x] [Video Speed Controller](https://vanntile.github.io/JavaScript30/28%20-%20Video%20Speed%20Controller)
 29. [x] [Countdown Timer](https://vanntile.github.io/JavaScript30/29%20-%20Countdown%20Timer)
-30. [ ] Whack A Mole
+30. [x] [Whack A Mole](https://vanntile.github.io/JavaScript30/30%20-%20Whack%20A%20Mole)
