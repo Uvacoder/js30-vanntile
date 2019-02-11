@@ -65,5 +65,6 @@ const bonk = function (e) {
 }
 
 moles.forEach(mole => mole.addEventListener('click', bonk))
+moles.forEach(mole => mole.addEventListener('touchstart', bonk))
 
 startButton.addEventListener('click', () => timeUp && startGame())
