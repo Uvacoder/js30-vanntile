@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <!-- panel-(success,default,primary,info,warning,danger) -->
+  <body style="margin: 12px">
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-2">
+        <!-- Collapsible Panels modified from https://bootstrapdocs.com/v3.3.2/docs/javascript/#collapse-example-accordion -->
+        <div class="panel-group" id="column1" role="tablist" aria-multiselectable="true">
+          <div id="github" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                GitHub
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://github.com/AustinKerr42">Main</a></dt>
+                  <dt>
+                    <a href="https://austinkerr42.github.io/">Site</a>
+                    &nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/AustinKerr42/AustinKerr42.github.io">Code</a>
+                  </dt>
+                  <dt><a href="https://github.com/AustinKerr42/bookmarks">bookmarks</a></dt>
+                  <dt><a href="https://gist.github.com/AustinKerr42">Gists</a></dt>
+                  <dt><a href="https://github.com/thoughtbot/til">TIL</a></dt>
+                <p>
+                  <dt><a href="https://github.com/nathanhoad/nathanhoad">nathanhoad</a></dt>
+                  <dt><a href="https://blog.teddykatz.com/2019/11/05/github-oauth-bypass.html">oauth bypass</a></dt>
+                  <dt><a href="https://heated.medium.com/why-fasting-works-7a14086e46de">fasting</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="google" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                Google
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></dt>
+                  <dt><a href="https://drive.google.com/?tab=ro&authuser=0">Drive</a></dt>
+                  <dt><a href="https://photos.google.com/?tab=rq&authuser=0&pageId=none">Photos</a></dt>
+                  <dt><a href="https://keep.google.com/u/0">Keep</a></dt>
+                  <dt><a href="https://news.google.com/nwshp?hl=en&tab=rn&authuser=0">News</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="styleguides" class="panel panel-default">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column1">
+                Style Guides
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://google.github.io/styleguide/javaguide.html">Java</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/ruby-style-guide">Ruby</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/rails-style-guide">Rails</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://google.github.io/styleguide/htmlcssguide.html">HTML/CSS</a></dt>
+                  <dt><a href="http://tomdoc.org/">TomDoc</a>&nbsp;&nbsp;/&nbsp;
+                    <a href="https://github.com/rubocop-hq/rspec-style-guide">RSpec</a></dt>
+                </p>
+                  <dt>
+                    <a href="https://ruby-doc.org/core-2.3.6/">RubyDocs</a>
+                    &nbsp;&nbsp;/&nbsp;
+                    <a href="https://www.oracle.com/technetwork/java/javase/tech/index-137868.html">JavaDocs</a>
+                  </dt>
+                </p>
+                  <dt>
+                    <a href="http://doc.scalatest.org/3.0.1/#org.scalatest.FunSpec">FunSpec</a>
+                    &nbsp;&nbsp;/&nbsp;
+                    <a href="http://www.scalatest.org/user_guide/sharing_tests">Scala Traits</a>
+                  </dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column2" role="tablist" aria-multiselectable="true">
+          <div id="austin" class="panel panel-danger">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                Austin
+              </div>
+            </div>
+          </div>
+          <div id="general" class="panel panel-danger">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                General
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://trello.com/">Trello</a></dt>
+                  <dt><a href="https://medium.com/">Medium</a></dt>
+                  <dt><a href="https://airtable.com/">Airtables</a></dt>
+                  <dt><a href="https://www.volgistics.com/ex2/vicnet.dll/?from=47202">KCPP</a></dt>
+                  <dt><a href="https://www.curbsidekc.com/">Curbside KC</a></dt>
+                  <dt><a href="https://www.fender.com/play/path/level-1">Fender</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="finance" class="panel panel-danger">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                Finance
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://online.citi.com/US/login.do">Citi</a></dt>
+                  <dt><a href="https://www.mint.com/?utm_medium=intuit_home&utm_source=bar_header">Mint</a></dt>
+                  <dt><a href="https://investor.vanguard.com/my-account/log-on">Vanguard</a></dt>
+                  <dt><a href="https://www.wellsfargo.com/">Wells Fargo</a></dt>
+                  <dt><a href="https://home.personalcapital.com/page/login/goHome">Personal Capital</a></dt>
+                </p>
+                  <dt><a href="https://www.wellsfargo.com/financial-education/">Edu</a></dt>
+                  <dt><a href="https://login.fidelity.com/ftgw/Fidelity/NBPart/Login/Init?AuthRedUrl=https://workplaceservices.fidelity.com/mybenefits/navstation/navigation">Fidelity</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="workout" class="panel panel-danger">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column2">
+                Workout
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://www.99boulders.com/beginner-hangboard-training">Hangboard Workout</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column3" role="tablist" aria-multiselectable="true">
+          <div id="shared" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Shared
+              </div>
+            </div>
+          </div>
+          <div id="housing" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Housing
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://oldtownloftskc-reslisting.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx">Lucas</a></dt>
+                  <dt><a href="https://www.kcpl.com/budgetbilling">Electric</a></dt>
+                  <dt><a href="https://fiber.google.com/myfiber/">Fiber</a></dt>
+                  <dt><a href="https://docs.google.com/spreadsheets/d/1mviNNUQ3vuA7Qz31UDOaUAdcsrtfr37ILuf5mHtw4co/edit">Apartment Livin</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+          <div id="streaming" class="panel panel-success">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column3">
+                Streaming
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://www.netflix.com/browse">Netflix</a></dt>
+                  <dt><a href="https://www.amazon.com/Prime-Video/b?ie=UTF8&node=2676882011">Prime Video</a></dt>
+                  <dt><a href="https://www.disneyplus.com">Disney +</a></dt>
+                  <dt><a href="https://www.adultswim.com/videos/rick-and-morty">AS</a></dt>
+                  <dt><a href="https://www.fxnetworks.com/shows">FX</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 4 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column4" role="tablist" aria-multiselectable="true">
+          <div id="marge" class="panel panel-info">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column4">
+                Marge
+              </div>
+            </div>
+          </div>
+          <div id="general" class="panel panel-info">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column4">
+                General
+              </div>
+            </div>
+            <div class="panel-collapse collapse in">
+              <div class="panel-body">
+                <dl>
+                  <dt><a href="https://www.womansday.com/food-recipes/food-drinks/g2337/30-minute-dinners/?slide=65">Dinner Ideas</a></dt>
+                  <dt><a href="https://www.bankofamerica.com/">Bank of America</a></dt>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 5 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column5" role="tablist" aria-multiselectable="true">
+          <div id="tbd0" class="panel panel-warning">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column5">
+                TBD
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 6 -->
+      <div class="col-md-2">
+        <div class="panel-group" id="column6" role="tablist" aria-multiselectable="true">
+          <div id="tbd1" class="panel panel-primary">
+            <div class="panel-heading">
+              <div data-toggle="collapse" data-parent="#column6">
+                TBD
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <style>
+      .panel-heading span {
+          margin-top: -20px;
+          font-size: 15px;
+      }
+      dl {
+          margin-bottom: 0px;
+      }
+      body {
+          background-color: #3C3C3C
+      }
+      .panel-body {
+          background-color: #606060
+      }
+      a {
+          color: #99cfff
+      }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</html>
