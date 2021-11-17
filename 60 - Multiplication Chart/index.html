@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Make your own multiplication chart</title>
+  <meta name="description" property="og:description" content="Make a multiplication chart as big as you want. By Chip Cullen.">
+  <style>
+    body {
+      padding: 50px;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .inputs {
+      padding-bottom: 20px;
+      border-bottom: 1px solid grey;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border: 1px solid goldenrod;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+      background-color: aliceBlue;
+    }
+
+    td:nth-child(odd) {
+      background-color: hsla(0, 0%, 90%, .4);
+    }
+
+
+    td:nth-child(1) {
+      font-weight: bold;
+      background-color: aliceBlue
+    }
+
+    tr:nth-child(odd) {
+      background-color: hsla(0, 0%, 90%, .6);
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Make your own multiplication chart</h1>
+
+  <div class="inputs">
+    <label>
+      Horizontal Numbers
+      <input type="number" value="14" id="xAxis" min="1" />
+    </label>
+
+    <label>
+      Vertical Numbers
+      <input type="number" value="14" id="yAxis" min="1"/>
+    </label>
+  </div>
+
+
+  <table id="mult"></table>
+
+  <script>
+    const buildTable = (xAxis, yAxis) => {
+      const table = document.querySelector('#mult');
+      let html = [];
+
+      for (let row = 1; row <= yAxis; row++) {
+        const tag = row === 1 ? `th` : `td`;
+        let tr = [];
+
+        tr.push(`<tr>`);
+
+          for (let column = 1; column <= xAxis; column++) {
+            tr.push(`<${tag}>${row * column}</${tag}>`)
+          }
+
+          tr.push(`</tr>`);
+
+          html.push(tr.join(''));
+        }
+
+        table.innerHTML = html.join('');
+      }
+
+      const passValues = () => {
+        const xAxisValue = parseInt(document.querySelector('#xAxis').value);
+        const yAxisValue = parseInt(document.querySelector('#yAxis').value);
+        buildTable(xAxisValue, yAxisValue);
+      }
+
+
+      const addEvents = () => {
+        const inputs = document.querySelectorAll('input');
+
+        inputs.forEach(input => {
+          input.addEventListener('keyup', passValues)
+          input.addEventListener('change', passValues)
+        })
+      }
+
+      const init = () => {
+        const defaultXAxis = 14;
+        const defaultYAxis = defaultXAxis;
+        buildTable(defaultXAxis, defaultYAxis);
+        addEvents();
+      }
+
+      init();
+
+    </script>
+  </body>
+</html>
