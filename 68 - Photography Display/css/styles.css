@@ -1,0 +1,76 @@
+/* ===============================
+   General Styles
+================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #333333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+ /*   padding: 0 10px; */
+}
+
+/* ===============================
+   Searchbox
+================================ */
+
+.searchbox {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.searchbox input {
+    width: 300px;
+    height: 44px;
+    padding: 0 10px;
+    border: #eeeeee 2px solid;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ===============================
+   Image Gallery 
+================================ */
+
+.single-image {
+    margin: 20px;
+}
+
+.img-gallery {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* ===============================
+   Media Queries
+================================ */
+
+/* Tablets and Small Laptops */
+
+@media (min-width: 768px) {
+    .searchbox input {
+        width: 400px;
+    }
+}
+
+/* Large Desktop */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 90%;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+
+    .searchbox input {
+        width: 450px;
+    }
+}
