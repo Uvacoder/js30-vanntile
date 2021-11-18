@@ -1,0 +1,338 @@
+/**
+ * Reset some basic elements
+ */ 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+/**
+ * Basic styling
+ */ 
+body {
+    font: 400 1.05em/1.8 -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #111;
+    background-color: #fdfdfd;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern"1;
+    -moz-font-feature-settings: "kern"1;
+    -o-font-feature-settings: "kern"1;
+    font-feature-settings: "kern"1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+ol,
+dl,
+figure,
+.highlight {
+    margin-bottom: 15px;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: #3B60F2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/**
+ * `main` element
+ */ 
+main {
+    display: block;
+    /* Default value of `display` of `main` element is 'inline' in IE 11. */
+}
+/**
+ * Images
+ */ 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+/**
+ * Figures
+ */ 
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+section.item-list {
+    max-width: 80%;
+    margin: 1em auto;
+}
+
+section.item-list div {
+    margin: 2em 0;
+}
+/**
+ * Headings
+ */ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+article {
+    width: 90%;
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+article img {
+    width: 100%;
+    margin: 1em auto;
+    display: block;
+    max-height: 700px;
+    object-fit: contain;
+}
+
+stream {
+    margin-bottom: 1.4em;
+}
+
+article p {
+    margin: 1.5em 0;
+}
+
+div.item-header h1 a {
+    color: inherit;
+}
+
+div.item-header h1 {
+    margin: 0;
+    font-size: 2.3em;
+}
+
+div.item-header h2 {
+    font-size: 0.85em;
+    color: darkgray;
+    margin: 0;
+}
+
+ul.item-list {
+    list-style: none;
+    margin: 10px auto;
+    width: 80%;
+}
+
+ul.item-list li {
+    font-size: 0.8em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 0 1em 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0.4em;
+    font-size: 0.8em;
+}
+
+footer h2,
+footer p {
+    font-size: 0.7em;
+    color: gray;
+    margin: 0;
+}
+/**
+ * The best syntax highlighting theme on the planet
+ */ 
+body.dark pre,
+pre.splash {
+    background-color: #1a1a1a !important;
+    border-radius: 8px;
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+}
+
+pre code {
+    display: block;
+    color: #a9bcbc;
+    line-height: 1.4em;
+    font-size: 0.85em;
+    white-space: pre;
+    background-color: #1a1a1a !important;
+    padding: 20px;
+    font-family: "JetBrains Mono", "SF Mono", monospace;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+pre code .splashkeyword {
+    color: #e73289;
+}
+
+pre code .splashtype {
+    color: #8281ca;
+}
+
+pre code .splashcall {
+    color: #348fe5;
+}
+
+pre code .splashproperty {
+    color: #21ab9d;
+}
+
+pre code .splashnumber {
+    color: #db6f57;
+}
+
+pre code .splashstring {
+    color: #fa641e;
+}
+
+pre code .splashcomment {
+    color: #6b8a94;
+}
+
+pre code .splashdotAccess {
+    color: #92b300;
+}
+/**
+ * Dark mode (AKA "best mode")
+ */ 
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #161617;
+        color: #DDD;
+    }
+    body pre,
+    body pre code {
+        border-color: #1D1D20 !important;
+    }
+    body a:hover {
+        color: white;
+        text-decoration: underline;
+    }
+    body .site-footer {
+        border-top: 1px solid #202021;
+    }
+    a:link,
+    a:active,
+    a:visited {
+        color: #a981f7;
+        text-decoration: none;
+    }
+    a:visited {
+        color: #7d52d0;
+    }
+}
+
+body.dark {
+    background-color: #161617;
+    color: #DDD;
+}
+
+body.dark pre,
+body.dark pre code {
+    border-color: #1D1D20 !important;
+}
+
+body.dark a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+body.dark .site-footer {
+    border-top: 1px solid #202021;
+}
+
+body.dark a:link,
+body.dark a:active,
+body.dark a:visited {
+    color: #a981f7;
+}
+
+body.dark a:visited {
+    color: #7d52d0;
+}
+
+header {
+    text-align: center;
+    padding-top: 18px;
+}
+
+p#sunset-message {
+    text-align: center;
+    color: darkgray;
+    font-size: 13px;
+}
+
+a#hero img {
+    max-width: 220px !important;
+    margin: 0 auto 40px auto;
+}
+
+ul#shortcut-list {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+ul#shortcut-list li h2 {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+ul#shortcut-list li {
+    margin-bottom: 20px;
+}
+
+ul#shortcut-list li p {
+    font-size: 13px;
+    margin: 0;
+}
